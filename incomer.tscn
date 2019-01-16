@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://graphics/incomer.png" type="Texture" id=1]
+
+[node name="incomer" type="Node2D"]
+position = Vector2( 200, 80 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="incomerSprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+

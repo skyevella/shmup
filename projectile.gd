@@ -9,6 +9,6 @@ func _ready():
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta): 
-	self.position.x = get_global_mouse_position().x
+func _process(delta):
+	self.position.y -=5
 	pass
